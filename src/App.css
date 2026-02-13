@@ -1,0 +1,88 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #ffffff);
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
+  padding: 18px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo */
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.nav-links a:hover {
+  background-color: white;
+  color: #1e3c72;
+  transform: translateY(-3px);
+}
+
+/* Content Section */
+.content {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 42px;
+  color: #1e3c72;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Button */
+.btn {
+  background: #1e3c72;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #2a5298;
+  transform: scale(1.05);
+}
